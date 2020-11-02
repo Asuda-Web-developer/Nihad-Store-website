@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* body */
+body{
+    height: 100%;
+    width: 100%;
+}
+/* body end */
+
+
+/* padding home */
+
+.padding{
+    padding: 100px;
+}
+/* padding end */
+
+
+/* wena */
+.wena{
+    width: 482px;
+    max-width: 100%;
+}
+/* wena end */
+
+/* nwsen */
+.nwsen{
+    margin-top: 72px;
+}
+/* nwsen end */
+
+
+/* services */
+#servieces{
+    padding: 100px;
+}
+/* services end */
+
+
+
+/* imgx1 */
+
+.imgx1{
+    width: 134px;
+    margin-left: 114px;
+}
+/* imgx end */
+
+
+/* contact-section */
+
+#contact-section{
+    padding: 100px;
+    
+  
+}
+/* contact-section end */
+
+
+/* about */
+#about{
+    padding: 100px;
+}
+
+/* about end */
+
+
+/* imgx2 */
+.imgx2{
+    margin-left: 126px;
+}
+/* imgx2 end */
+
+
+/* footer */
+
+
+#footer{
+    padding: 30px;
+  
+}
+/* footer end */
+
+
+
+/* darkmode */
+
+.darkmode{
+    margin-top: 8px;
+}
+/* darkmode end */
+
+/* download */
+.download{
+    margin-top: 23px;
+}
+/* download end */
+
+/* cneterrr */
+
+
+/* cneterrr */
+.centerrr{
+margin-left: 44px;
+}
+/* cneterrr end */

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>website</title>
+  <!-- style css -->
+
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- Halfmoon CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon-variables.min.css" rel="stylesheet" />
+  <!-- Fontawesome CSS -->
+
+  <script src="https://kit.fontawesome.com/e84e1885db.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="with-custom-webkit-scrollbars with-custom-css-scrollbars" data-dm-shortcut-enabled="true"
+  data-sidebar-shortcut-enabled="true" data-set-preferred-mode-onload="true">
+  <!-- Modals go here -->
+  <!-- Reference: https://www.gethalfmoon.com/docs/modal -->
+
+  <!-- Page wrapper start -->
+  <div class="page-wrapper with-navbar with-sidebar">
+
+    <!-- Sticky alerts (toasts), empty container -->
+    <!-- Reference: https://www.gethalfmoon.com/docs/sticky-alerts-toasts -->
+    <div class="sticky-alerts"></div>
+
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <div class="navbar-content">
+        <button class="btn btn-action" onclick="halfmoon.toggleSidebar()" type="button">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+          <span class="sr-only">Toggle sidebar</span> <!-- sr-only = show only on screen readers -->
+        </button>
+      </div>
+      <!-- Navbar brand -->
+      <a href="#" class="navbar-brand">
+        <img src="./images/logo.svg" alt="...">
+        Nihad Store </a>
+      <!-- Navbar text -->
+      <!-- Navbar nav -->
+      <ul class="navbar-nav d-none d-md-flex ml-auto mx-2">
+        <!-- d-none = display: none, d-md-flex = display: flex on medium screens and up (width > 768px) -->
+        <li class="nav-item">
+          <button class="btn darkmode " type="button" onclick="toggleDemo()"><i class="fas fa-adjust"></i></button>
+        </li>
+        <li class="nav-item active">
+          <a href="#" class="nav-link">ماڵەوە</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">خزمەت گوزاری</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link"> پەیوەندی </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link"> دەربارە</a>
+        </li>
+        
+      </ul>
+      <!-- Navbar form (inline form) -->
+
+      <!-- Navbar content (with the dropdown menu) -->
+
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Sidebar start -->
+
+    <div class="sidebar">
+      <div class="sidebar-menu">
+        <!-- Sidebar brand -->
+        <a href="#" class="sidebar-brand">
+          <img src="./images/logo.svg" alt="...">
+          Nihad Store
+        </a>
+        <!-- Sidebar content with the search box -->
+        <div class="sidebar-content">
+          <input type="text" class="form-control" placeholder="Search for your application">
+
+        </div>
+        <!-- Sidebar links and titles -->
+        <h5 class="sidebar-title">بەشی ئایفۆن</h5>
+        <div class="sidebar-divider"></div>
+        <a href="#" class="sidebar-link active">بەرنامە کڕاک کراوەکان</a>
+        <a href="jelbrek.html" class="sidebar-link">جێلبرێک</a>
+        <a href="krakkrawakan.html" class="sidebar-link ">یاریەکڕاک کراوەکان</a>
+        <br>
+        <br>
+
+        <!-- <span class="btn btn-danger mt-20 sidebar-link " onclick="    halfmoon.toggleDarkMode();">Change Them</span> -->
+        <h5 class="sidebar-title">بەشی ئەندڕۆید </h5>
+        <div class="sidebar-divider"></div>
+        <a href="#" class="sidebar-link active">یاریە تازەکان</a>
+
+
+      </div>
+    </div>
+    <!-- Sidebar end -->
+
+    <!-- Content wrapper start -->
+    <div class="content-wrapper">
+      <div class="padding">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <img src="./images/home.svg" class="img-fluid wena" alt="">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 nwsen">
+              <h5 class="text-right"> ! لێرە بەرنامەکان بە دەست بێنە بە ئاسانترین رێگا </h5>
+              <p class="lead text-right">
+                لێرە هەموو بەرنامە کڕاکراوە کان بە دەست بێنە
+                بەرنامەکانی ئەندڕۆید و ئایفۆن بێ هیچ دوودڵیەک
+                وە جێلبرێک بۆ ئایفۆن هاکی پەبجی
+
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="display-4">
+      <section id="servieces">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <img src="./images/s1.svg" class="imgx1">
+              <h4 class="text-center">نوێبوونەوە</h4>
+              <P class="lead text-center">
+                بەرنامەکان بە زووترین کات
+                نوێ دەکەینەوە
+
+              </P>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <img src="./images/s2.svg" class="imgx1">
+              <h4 class="text-center">گەشەپێدان</h4>
+              <P class="lead text-center">
+                گەشەپێدانی بەرنامەکان بە باشتیرین
+                شێوە
+              </P>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <img src="./images/s1.svg" class="imgx1">
+              <h4 class="text-center">چارەسەر</h4>
+              <P class="lead text-center">
+                چارەسەر کردنی هەموو کێشەکانی ئەندڕۆید ئایفۆن
+              </P>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <hr class="display-4">
+      <section id="contact-section">
+        <div class="container">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputEmail4">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputPassword4">Password</label>
+                  <input type="password" class="form-control" id="inputPassword4">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputAddress">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+              </div>
+              <div class="form-group">
+                <label for="inputAddress2">Address 2</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputCity">City</label>
+                  <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="inputState">State</label>
+                  <select id="inputState" class="form-control">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="form-group col-md-2">
+                  <label for="inputZip">Zip</label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Check me out
+                  </label>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <h4>دەربارەی ئێمە</h4>
+              <h6>دەربارە</h6>
+              <p class="lead">
+                ئێمە تیمێکین بۆ دانانی بەرنامە ڕۆژانە نوێترین بەرنامەو نوێترین
+                هاکی یاریەکان و جێلبرێکردنی مۆبایل بە نوێترین ڕێگا لای ئێمە ئەتوانی بە دەستی بێنی بێ بوونی هیچ کێشەیەک
+
+              </p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <img src="./images/about.svg" class="img-fluid imgx2" width="423px" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="footer">
+        <div class="container">
+          <div class="col-lg-12 col-md-6 col-sm-12">
+            <footer class="text-muted">
+              <div class="container">
+                <p class="float-right">
+                  <a href="index.html">سەرەتا</a>
+                </p>
+                <p>Copyright &copy; 2020-2021</p>
+                <p>Nihad Store <a href="#">0770 245 4505</a> Address <a href="#">Shaqlawa</a>.</p>
+              </div>
+            </footer>
+          </div>
+        </div>
+
+      </section>
+    </div>
+    <!-- Content wrapper end -->
+
+    <!-- contnet wrapper start -->
+
+    <!-- content wrapper end -->
+
+
+
+    <!-- Page wrapper end -->
+
+
+    <!-- Halfmoon JS -->
+    <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
+    <script type="text/javascript">
+      // Dark mode toggle demo
+      function toggleDemo() {
+        halfmoon.toggleDarkMode();
+      }
+    </script>
+</body>
+
+</html>
